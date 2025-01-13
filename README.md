@@ -56,7 +56,7 @@ Content-Type: application/json
 
 ### Streaming Request
 ```http
-POST /models/gpt-4/proxy/chat/completions
+POST https://inference.develop.openinnovation.ai/models/42c4f31d-9f7d-4f64-b8ad-3c63ada3df53/proxy/v1/chat/completions
 Authorization: Bearer your-api-key
 Accept: text/event-stream
 Content-Type: application/json
